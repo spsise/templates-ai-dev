@@ -1,0 +1,9 @@
+services:
+  project-name-app:
+    environment:
+      - DOCKER_BUILDKIT=0
+    volumes:
+      - .:/workspaces:cached
+      - .:/var/www:cached
+    command: /bin/sh -c "while sleep 1000; do :; done"
+
