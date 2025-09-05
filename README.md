@@ -13,18 +13,21 @@ crie um ambiente de desenvolvimento para o laravel + mysql
 ### 🐳 DevContainer Laravel + MySQL
 ```bash
 # DevContainer completo com Laravel + MySQL + Nginx + Redis
+# Template: templates/devcontainers/laravel-mysql/
 crie um devcontainer laravel + mysql
 ```
 
 ### 🐳 DevContainer Laravel + MySQL + phpMyAdmin
 ```bash
 # DevContainer completo com Laravel + MySQL + phpMyAdmin
+# Template: templates/devcontainers/laravel-mysql-phpmyadmin/
 crie um devcontainer com laravel + mysql + phpmyadmin
 ```
 
 ### ⚛️ ReactJS
 ```bash
 # Aplicação ReactJS baseada no template
+# Template: templates/react/
 crie uma aplicação reactjs baseado no template
 ```
 
@@ -56,6 +59,15 @@ crie uma aplicação reactjs baseado no template
 2. **Cole no Cursor** e execute
 3. **A IA verificará** se o template existe no repositório
 4. **Criará o projeto** baseado no template validado
+
+### 📍 Direcionamento dos Templates
+
+Cada comando está **diretamente vinculado** à sua pasta específica:
+- `crie um devcontainer laravel + mysql` → `templates/devcontainers/laravel-mysql/`
+- `crie um devcontainer com laravel + mysql + phpmyadmin` → `templates/devcontainers/laravel-mysql-phpmyadmin/`
+- `crie uma aplicação reactjs baseado no template` → `templates/react/`
+
+A IA acessa automaticamente a pasta correta baseada no comando executado.
 
 ## 📁 Estrutura do Repositório
 
